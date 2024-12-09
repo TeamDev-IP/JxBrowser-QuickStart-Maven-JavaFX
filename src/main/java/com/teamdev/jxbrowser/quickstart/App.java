@@ -1,4 +1,4 @@
-/*
+package com.teamdev.jxbrowser.quickstart;/*
  *  Copyright 2024, TeamDev. All rights reserved.
  *
  *  Redistribution and use in source and/or binary forms, with or without
@@ -33,7 +33,7 @@ import javafx.stage.Stage;
  * (equivalent of the Chromium tab), embed a JavaFX BrowserView component into JavaFX
  * scene to display content of the loaded web page, load the required web page.
  */
-public final class HelloFX extends Application {
+public final class App extends Application {
 
     public static void main(String[] args) {
         launch(args); // Start the JavaFX application.
