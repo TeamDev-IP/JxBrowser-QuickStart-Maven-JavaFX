@@ -18,6 +18,8 @@
  *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+package com.teamdev.jxbrowser.quickstart.maven.javafx;
+
 import static com.teamdev.jxbrowser.engine.RenderingMode.HARDWARE_ACCELERATED;
 
 import com.teamdev.jxbrowser.browser.Browser;
@@ -33,7 +35,7 @@ import javafx.stage.Stage;
  * (equivalent of the Chromium tab), embed a JavaFX BrowserView component into JavaFX
  * scene to display content of the loaded web page, load the required web page.
  */
-public final class HelloFX extends Application {
+public final class App extends Application {
 
     public static void main(String[] args) {
         launch(args); // Start the JavaFX application.
