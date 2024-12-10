@@ -1,4 +1,4 @@
-# JxBrowser in a Maven-based Swing desktop application
+# JxBrowser in a Maven-based JavaFX desktop application
 
 This example demonstrates how to configure a Maven project with JxBrowser to embed a `BrowserView` widget into
 a JavaFX desktop application to display web pages.
