@@ -18,7 +18,7 @@ mvn clean compile exec:java -Djxbrowser.license.key=<your_license_key>
 
 Once launched, the app loads the [HTML5 test page][html5-test-page]:
 
-![Swing BrowserView][javafx-browser-view]
+![JavaFX BrowserView][javafx-browser-view]
 
 [web-form]: https://www.teamdev.com/jxbrowser#evaluate
 [html5-test-page]: https://html5test.teamdev.com
