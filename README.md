@@ -5,7 +5,7 @@ a JavaFX desktop application to display web pages.
 
 ## Prerequisites
 
-* Java 17 or newer.
+* Java 8.
 * Your JxBrowser license key, or a [free 30-day evaluation key][web-form].
 
 ## Run the JavaFX application
