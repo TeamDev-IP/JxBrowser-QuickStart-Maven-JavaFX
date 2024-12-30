@@ -22,7 +22,6 @@ package com.teamdev.jxbrowser.quickstart.maven.javafx;
 
 import static com.teamdev.jxbrowser.engine.RenderingMode.HARDWARE_ACCELERATED;
 
-import com.teamdev.jxbrowser.browser.Browser;
 import com.teamdev.jxbrowser.engine.Engine;
 import com.teamdev.jxbrowser.view.javafx.BrowserView;
 import javafx.application.Application;
@@ -44,17 +43,17 @@ public final class App extends Application {
     @Override
     public void start(Stage primaryStage) {
         // Initialize Chromium.
-        Engine engine = Engine.newInstance(HARDWARE_ACCELERATED);
+        var engine = Engine.newInstance(HARDWARE_ACCELERATED);
 
-        Browser browser = engine.newBrowser();
+        var browser = engine.newBrowser();
 
         // Load the required web page.
         browser.navigation().loadUrl("https://html5test.teamdev.com");
 
         // Create and embed JavaFX BrowserView component to display web content.
-        BrowserView view = BrowserView.newInstance(browser);
+        var view = BrowserView.newInstance(browser);
 
-        Scene scene = new Scene(new BorderPane(view), 1280, 800);
+        var scene = new Scene(new BorderPane(view), 1280, 800);
         primaryStage.setTitle("JxBrowser JavaFX");
         primaryStage.setScene(scene);
         primaryStage.show();
